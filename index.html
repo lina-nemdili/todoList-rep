@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Todo List</h1>
+    <form id="todo-form">
+      <input type="text" id="new-todo" placeholder="Add new task...">
+      <input type="submit" id="task-submit" value="Add Task">
+    </form>
+  </header>
+
+  <main>
+    <section class="todo-list">
+      <h2>Todos</h2>
+      <div id="todos">
+        <!-- Todos will be dynamically added here -->
+      </div>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
